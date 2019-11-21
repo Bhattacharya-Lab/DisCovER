@@ -1,1 +1,1 @@
-# DisCovER: Distance-based Covariational Protein Thread-ER
+# DisCovER: Distance-based Covariational Protein ThreadER
