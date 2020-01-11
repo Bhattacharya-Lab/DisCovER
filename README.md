@@ -31,9 +31,8 @@ To run DisCovER, go to the target directory, which contains target sequence file
 ```sh
 $ cd example
 $ discover -a A.map -b B.map
-
-Top predicted model will be named as `seq_model1.pdb`.
 ```
+The top predicted model will be named as `seq_model1.pdb` and the alignment file is named as `top1.fasta`.
 
 ## Data
 
