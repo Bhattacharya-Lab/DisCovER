@@ -39,9 +39,10 @@ To run DisCovER, go to the target directory, which contains target sequence file
 $ cd example/d1a9xb1/
 $ ./discover -T ../template_library/ -L ../template_library/template_list.txt -q d1a9xb1 -o ./ -d rawdistpred.current -m /home/XXXX/bin/modeller9.20/bin/modpy.sh -n 50 -c 0.30 
 ```
-The first-ranked predicted model will be named as `seq_model1.pdb` and the corresponding alignment file is named as `top1.fasta`.
+The first-ranked predicted 3D model will be named as `seq_model1.pdb` and the corresponding alignment file is named as `top1.fasta`.
 
 ## Data
 
 - The template library can be found [here](data/FRAGFOLD_150.txt) 
 - The benhcmark datastes along with input files can be found [here](data/CASP12_13_FM.txt) 
+- DisCovER predicted first-ranked 3D full-length models can be found [here](data/CASP12_13_FM.txt) 
