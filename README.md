@@ -36,7 +36,7 @@ Options:  -T path to template library             - input, required
 To run DisCovER, go to the target directory, which contains target sequence file, standard SPIDER3 predicted output file, and profiles. Particularly, DisCovER will assume `seq.fasta, seq.spd33, seq.prf, seq.mtx` files are prersent in the current directory.
 
 ```sh
-$ ulimit -s 419430400 ./discover          (To increase the stack limit: Avoids Segmentation Error)
+$ ulimit -s 419430400 ./discover          (To increase the stack limit, avoiding Segmentation Error)
 $ cd example/d1a9xb1/                     (Target directory contains respective input files as mentioned above)
 $ ./discover -T ../template_library/ -L ../template_library/template_list.txt -q d1a9xb1 -o ./ -d rawdistpred.current -m /home/XXXX/bin/modeller9.20/bin/modpy.sh -n 50 -c 0.30 
 ```
