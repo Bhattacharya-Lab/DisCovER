@@ -2,6 +2,12 @@
 
 Distance-based Covariational Protein Threading for Low-homology Fold Recognition.
 
+### Download and Installation
+```sh
+git clone https://github.com/Bhattacharya-Lab/DisCovER
+cd DisCovER
+```
+
 ## Usage
 
 To see the usage instructions, run `$ ./discover -h`
