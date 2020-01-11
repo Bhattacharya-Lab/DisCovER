@@ -4,7 +4,7 @@ Distance-based Covariational Protein Threading for Low-homology Fold Recognition
 
 ## Usage
 
-To see the usage instructions, run `./discover -h`
+To see the usage instructions, run `$ ./discover -h`
 ```
 ---------------------------------------------------------------------
                         DisCovER
