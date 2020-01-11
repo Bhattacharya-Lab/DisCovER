@@ -7,6 +7,7 @@ Distance-based Covariational Protein Threading for Low-homology Fold Recognition
 $ git clone https://github.com/Bhattacharya-Lab/DisCovER
 $ cd DisCovER
 ```
+The DisCovER executable is compiled and tested on x86_64 redhat linux system. 
 
 ## Usage
 
@@ -38,7 +39,7 @@ To run DisCovER, go to the target directory, which contains target sequence file
 $ cd example/d1a9xb1/
 $ ./discover -T ../template_library/ -L ../template_library/template_list.txt -q d1a9xb1 -o ./ -d rawdistpred.current -m /home/XXXX/bin/modeller9.20/bin/modpy.sh -n 50 -c 0.30 
 ```
-The top predicted model will be named as `seq_model1.pdb` and the alignment file is named as `top1.fasta`.
+The first-ranked predicted model will be named as `seq_model1.pdb` and the corresponding alignment file is named as `top1.fasta`.
 
 ## Data
 
