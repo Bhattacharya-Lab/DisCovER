@@ -35,7 +35,7 @@ Options:  -T path to template library             - input, required
 
 ### Test DisCovER
 
-To run DisCovER, go to the target directory, which contains target sequence file, SPIDER3 predicted output file, profiles, and DMPfold predicted distance map. Particularly, DisCovER will assume `seq.fasta,seq.spd33,seq.prf,seq.mtx,rawdistpred.current` files are prersent in the current directory.
+To run DisCovER, go to the target directory, which contains target sequence file, SPIDER3 predicted output file, profiles, and DMPfold predicted distance map. Particularly, DisCovER will assume `seq.fasta, seq.spd33, seq.prf, seq.mtx, rawdistpred.current` files are prersent in the current directory.
 
 ```sh
 $ cd example
