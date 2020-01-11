@@ -30,7 +30,7 @@ To run DisCovER, go to the target directory, which contains target sequence file
 
 ```sh
 $ cd example
-$ discover -a A.map -b B.map
+$ ./discover -T  -L  -q  -o -d -m -n 50 -c 0.30 
 ```
 The top predicted model will be named as `seq_model1.pdb` and the alignment file is named as `top1.fasta`.
 
