@@ -1,6 +1,6 @@
 # DisCovER
 
-Distance-based Covariational Protein Threading for Low-homology Fold Recognition
+Distance-based Covariational Protein Threading for Low-homology Fold Recognition.
 
 ## Installation
 
@@ -35,11 +35,7 @@ Options:  -T path to template library             - input, required
 
 ### Test DisCovER
 
-To run DisCovER, go to the targets directory, which contains 'seq.fasta','seq.spd33','seq.prf','seq.mtx','rawdistpred.current'. DisCovER will assume these 5 input files are prersent in the current directory. The details of each file are as follows:
-          seq.fasta: Sequence file of the target in FASTA format.
-          seq.spd33: SPIDER3 predicted output file.
-          seq.prf and seq.mtx: profiles
-          rawdistpred.current: DMPfold predicted distance maps. 
+To run DisCovER, go to the target directory, which contains target sequence file, SPIDER3 predicted output file, profiles, and DMPfold predicted distance map. Particularly, DisCovER will assume `seq.fasta,seq.spd33,seq.prf,seq.mtx,rawdistpred.current` files are prersent in the current directory.
 
 ```sh
 $ cd example
