@@ -33,10 +33,11 @@ Options:  -T path to template library             - input, required
 
 ### Test DisCovER
 
-To run DisCovER, go to the target directory, which contains target sequence file, standard SPIDER3 predicted output file, profiles, and standard DMPfold predicted distance map. Particularly, DisCovER will assume `seq.fasta, seq.spd33, seq.prf, seq.mtx, rawdistpred.current` files are prersent in the current directory.
+To run DisCovER, go to the target directory, which contains target sequence file, standard SPIDER3 predicted output file, and profiles. Particularly, DisCovER will assume `seq.fasta, seq.spd33, seq.prf, seq.mtx` files are prersent in the current directory.
 
 ```sh
-$ cd example/d1a9xb1/
+$ ulimit -s 419430400 ./discover              (To increase the stack limit: Avoids `Segmentation Error`)
+$ cd example/d1a9xb1/                         (Target directory contains respective input files as mentioned above)
 $ ./discover -T ../template_library/ -L ../template_library/template_list.txt -q d1a9xb1 -o ./ -d rawdistpred.current -m /home/XXXX/bin/modeller9.20/bin/modpy.sh -n 50 -c 0.30 
 ```
 The first-ranked predicted 3D model will be named as `seq_model1.pdb` and the corresponding alignment file is named as `top1.fasta`.
