@@ -33,7 +33,7 @@ Options:  -T path to template library             - input, required
 
 ### Test DisCovER
 
-To run DisCovER, go to the target directory, which contains target sequence file, standard [SPIDER3](https://github.com/psipred/DMPfold) predicted output file, and profiles. Particularly, DisCovER will assume `seq.fasta, seq.spd33, seq.prf, seq.mtx` files are prersent in the current directory.
+To run DisCovER, go to the target directory, which contains target sequence file, standard [SPIDER3](https://sparks-lab.org/downloads/) predicted output file, and profiles. Particularly, DisCovER will assume `seq.fasta, seq.spd33, seq.prf, seq.mtx` files are prersent in the current directory.
 
 ```sh
 $ ulimit -s 419430400 ./discover          (To increase the stack limit, avoiding Segmentation Error)
