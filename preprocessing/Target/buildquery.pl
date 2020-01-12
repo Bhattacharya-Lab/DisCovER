@@ -5,10 +5,7 @@ use Cwd 'abs_path';
 
 
 ######## set your variables here
-#$msa_hhblitsdb="/nfs/amino-home/zhng/local_library/uniclust30_2017_04/uniclust30_2017_04";
-#$msa_jackhmmerdb="/nfs/amino-home/zhng/local_library/uniref90_04042018/uniref90.fasta";
-#$msa_hmmsearchdb="/nfs/amino-home/zhng/local_library/metaclust/metaclust.fasta";
-#$python="/nfs/amino-home/zhng/local_library/anaconda3/bin/python";
+a3m2psiblast="/home/szb0134/apps/cEthreader/CEthreader/lib/deepMSA/scripts/a3m2psiblast_v2.pl"
 $cpunum=4;
 
 
@@ -149,7 +146,7 @@ for($i=1;$i<=$Lch;$i++)
 `cp seq.aln deepmsa_protein.aln`;
 `cp seq.a3m deepmsa_protein.a3m`;
 
-`/home/szb0134/apps/cEthreader/CEthreader/lib/deepMSA/scripts/a3m2psiblast_v2.pl deepmsa_protein.a3m psitmp -a3m -neff 7`;   ## for ss
+$a3m2psiblast+` deepmsa_protein.a3m psitmp -a3m -neff 7`;   ## for ss
 
 
 `cp psitmp.mtx  protein.mtx`;
