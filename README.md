@@ -54,8 +54,17 @@ $ ../../discover -T ../template_library/ -L ../template_library/template_list.tx
 ```
 The first-ranked predicted 3D model will be named as `seq_model1.pdb` and the corresponding alignment file is named as `top1.fasta`.
 
+### Generating input files from Query sequence
+
+
+### Generating template libraries
+
+
 ## Data
 
 - The template library can be found [here](data/FRAGFOLD_150.txt) 
 - The benhcmark datasets along with input files can be found [here](data/CASP12_13_FM.txt) 
 - DisCovER predicted first-ranked 3D full-length models can be found [here](data/CASP12_13_FM.txt) 
+
+## Cite
+If you find DisCovER useful, please cite our paper at bioRxiv:
