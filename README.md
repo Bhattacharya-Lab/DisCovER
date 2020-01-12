@@ -33,7 +33,7 @@ Options:  -T path to template library             - input, required
 ##### More details on some options:
 
 * `-T` Path to template directory, containing `PDB, MTX, DEP, dssp, and seq` sub-directories.
-          `pdb`: Non-redundant PDB structures
+         ** `pdb`: Non-redundant PDB structures
           `MTX`: Sequence Profiles
           `DEP`: Depth-dependent structure profiles
          `dssp`: [DSSP](https://swift.cmbi.umcn.nl/gv/dssp/) generated output file
