@@ -56,7 +56,7 @@ $ tar -zxvf DisCovER_template_Lib.tar.gz           (Uncompress a toy template li
 $ cd d1a9xb1/                     (Target directory contains respective input files as mentioned above)
 $ ../../discover -T ../template_library/ -L ../template_library/template_list.txt -q d1a9xb1 -o ./ -d rawdistpred.current -m /home/XXXX/bin/modeller9.20/bin/modpy.sh -n 50 -c 0.30 
 ```
-The first-ranked predicted 3D model will be named as `seq_model1.pdb` and the corresponding alignment file is named as `top1.fasta`.
+The first-ranked predicted 3D model will be named as `seq_model1.pdb` and the corresponding alignment file is named as `top1.fasta`. If DisCovER is run without MODELLER (-m), then only `top1.fasta` file will be generated.
 
 ### Generating input files from Query sequence
 
