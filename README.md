@@ -13,22 +13,24 @@ The DisCovER executable is compiled and tested on x86_64 redhat linux system.
 
 To see the usage instructions, run `$ ./discover -h`
 ```
----------------------------------------------------------------------
+!!! HELP !!!
+
+-----------------------------------------------------------------------------------
                         DisCovER
  Distance-based Covariational Protein Threading  V2020.Jan.09
  For comments, please email to bhattacharyad@auburn.edu
----------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 
 Usage:   ./discover [-option] [argument]
 
-Options:  -T path to template library             - input, required
-          -L list.txt with template IDs           - input, required
-          -q query ID                             - input, required
-          -o path to output director              - input, required
-          -d path to query distance file          - input, required
-          -m path to MODELLER                     - input, optional
-          -n number of TOP templates to be selected  (optional, default 50)
-          -c sequence identity cutoff                (optional, default 0.30)
+Options:  -T path to template library                   - input, required
+          -L list.txt with template IDs                 - input, required
+          -q query ID                                   - input, required
+          -o path to output director                    - input, required
+          -d path to query distance file                - input, required
+          -m path to MODELLER                           (optional, but recommended)
+          -n number of TOP templates to be selected     (optional, default 50)
+          -c sequence identity cutoff                   (optional, default 0.30)
 ```
 ##### More details on some options:
 
