@@ -1,11 +1,18 @@
 #!/usr/bin/perl
+# Credit: 
+# 	1. Zheng,W., Wuyun,Q., et al. (2019) Detecting distant-homology protein structures by aligning deep neural-network based contact maps. PLOS Computational Biology 
+#	2. Zhang,C. et al. DeepMSA: constructing deep multiple sequence alignment to improve contact prediction and fold-recognition for distant-homology pro- teins. Bioinformatics.
+# Modified by: Sutanu
+
 use Math::Trig;
 use File::Basename;
 use Cwd 'abs_path';
 
 
 ######## set your variables here
-a3m2psiblast="/home/szb0134/apps/cEthreader/CEthreader/lib/deepMSA/scripts/a3m2psiblast_v2.pl"
+$DisCovER_path="/home/project/conThreader/DisCovER/DisCovER-master/";
+$a3m2psiblast=$DisCovER_path."preprocessing/Target/a3m2psiblast_v2.pl";
+#printf "$a3m2psiblast\n";
 $cpunum=4;
 
 
@@ -146,7 +153,8 @@ for($i=1;$i<=$Lch;$i++)
 `cp seq.aln deepmsa_protein.aln`;
 `cp seq.a3m deepmsa_protein.a3m`;
 
-$a3m2psiblast+` deepmsa_protein.a3m psitmp -a3m -neff 7`;   ## for ss
+#printf "$a3m2psiblast. deepmsa_protein.a3m psitmp -a3m -neff 7";
+`$a3m2psiblast deepmsa_protein.a3m psitmp -a3m -neff 7`;   ## for ss
 
 
 `cp psitmp.mtx  protein.mtx`;

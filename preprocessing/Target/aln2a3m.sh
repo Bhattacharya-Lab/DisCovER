@@ -1,4 +1,8 @@
 #!/bin/sh
+
+# Credit: 
+#       1. Zheng,W., Wuyun,Q., et al. (2019) Detecting distant-homology protein structures by aligning deep neural-network based contact maps. PLOS Computational Biology
+
 alnfile=$1
 a3mfile=$2
 i=0;
