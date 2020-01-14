@@ -60,6 +60,8 @@ The first-ranked predicted 3D model will be named as `seq_model1.pdb` and the co
 
 ### Generating input files from Query sequence
 
+* Generate an alignmnet file ([.aln](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/preprocessing/Target/ex/d1a34a_.aln) format) of the query sequence. 
+* Go through the steps discussed [here](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/preprocessing/Target)
 
 ### Generating template libraries
 
