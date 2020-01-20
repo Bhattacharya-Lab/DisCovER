@@ -7,7 +7,7 @@ distance-based covariational threading for weakly homologous proteins
 $ git clone https://github.com/Bhattacharya-Lab/DisCovER
 $ cd DisCovER
 ```
-The DisCovER executable is compiled and tested on x86_64 redhat linux system. 
+The DisCovER executable (named as `discover`) is compiled and tested on x86_64 redhat linux system. 
 
 ## Usage
 
