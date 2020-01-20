@@ -1,6 +1,6 @@
 # DisCovER
 
-Distance-based Covariational Protein Threading for Low-homology Fold Recognition.
+distance-based covariational threading for weakly homologous proteins
 
 ### Download and Installation
 ```sh
@@ -63,14 +63,18 @@ The first-ranked predicted 3D model will be named as `seq_model1.pdb` and the co
 * Generate an alignmnet file ([.aln](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/preprocessing/Target/ex/d4pv4a1.aln) format) of the query sequence. 
 * Go through the steps discussed [here](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/preprocessing/Target)
 
-### Generating template libraries
+### Generating template library
 
+* You can either download the template library from https://zhanglab.ccmb.med.umich.edu/library/ (you need `PDB, MTX, DEP`) and generate [`dssp`](https://swift.cmbi.umcn.nl/gv/dssp/) and `seq` by yourself
+
+* or build by your own library by using `generate_profile.pl` script of https://zhanglab.ccmb.med.umich.edu/I-TASSER/download/.
+ 
 
 ## Data
 
-- The template library can be found [here](data/FRAGFOLD_150.txt) 
-- The benhcmark datasets along with input files can be found [here](data/CASP12_13_FM.txt) 
-- DisCovER predicted first-ranked 3D full-length models can be found [here](data/CASP12_13_FM.txt) 
+- The template library can be found [here]() 
+- The benhcmark datasets along with input files can be found [here]() 
+- DisCovER predicted first-ranked 3D full-length models can be found [here]() 
 
 ## Cite
-If you find DisCovER useful, please cite our paper at bioRxiv:
+If you find DisCovER useful, please cite our paper:
