@@ -1,6 +1,6 @@
 # DisCovER
 
-distance-based covariational threading for weakly homologous proteins
+<center><h3>Distance-based Covariational threadER </h3></center>distance-based covariational threading for weakly homologous proteins
 
 ### Download and Installation
 ```sh
