@@ -1,6 +1,6 @@
 # DisCovER
 
-<center><h3>Distance-based Covariational threadER </h3></center>
+<h2>Distance-based Covariational threadER </h2>
 
 ### Download and Installation
 ```sh
