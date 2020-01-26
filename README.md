@@ -74,7 +74,7 @@ The first-ranked predicted 3D model will be named as `seq_model1.pdb` and the co
 
 - The template library can be found [here]() 
 - The benhcmark datasets along with input files can be found [here]() 
-- DisCovER predicted first-ranked 3D full-length models can be found [here]() 
+- DisCovER predicted full-length 3D models can be found [here]() 
 
 ## Cite
 If you find DisCovER useful, please cite our paper:
