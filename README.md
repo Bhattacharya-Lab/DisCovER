@@ -22,14 +22,14 @@ To see the usage instructions, run `$ ./DisCovER -h`
 
 Usage:   ./DisCovER [-option] [argument]
 
-Options:  -T path to template library             	   - input, required
-          -L .txt file with template IDs 	 	          - input, required
-          -q query ID   		          	                 - input, required
-          -o path to output directory                 - input, required
-          -d path to query distance file 	  	         - input, required 
-          -m path to MODELLER       		     	          (optional, but recommended)
+Options:  -T path to template library             	- input, required
+          -L .txt file with template IDs 	 	- input, required
+          -q query ID   		          	- input, required
+          -o path to output directory              	- input, required
+          -d path to query distance file 	  	- input, required 
+          -m path to MODELLER       		     	(optional, but recommended)
           -n number of TOP templates to be selected  	(optional, default 50)
-          -c sequence identity cutoff	             	  (optional, default 0.30)
+          -c sequence identity cutoff	             	(optional, default 0.30)
 
 
 ```
