@@ -7,7 +7,7 @@
 $ git clone https://github.com/Bhattacharya-Lab/DisCovER
 $ cd DisCovER
 ```
-The DisCovER executable (named as `DisCovER`) is compiled and tested on x86_64 redhat linux system. 
+The DisCovER executable (named as `DisCovER`) is compiled and tested on x86_64 linux system. 
 
 ## Usage
 
