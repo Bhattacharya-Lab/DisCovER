@@ -80,4 +80,4 @@ The predicted 3D model is named as `seq_model1.pdb` and the corresponding alignm
 - DisCovER predicted full-length 3D models can be found [here](http://sanger.cse.eng.auburn.edu/DisCovER/downloads/DisCovER_3D_models.tar.gz) 
 
 ## Cite
-If you find DisCovER useful, please cite our paper:
+If you find DisCovER useful, please cite our [paper in bioRxiv](https://www.biorxiv.org/content/10.1101/2020.01.31.923409v1) available as preprint.
