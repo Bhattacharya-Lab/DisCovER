@@ -11,7 +11,10 @@ Prequisites:
 4. Run 'aln2prf_mtx_spd33.py'. The script takes a FASTA sequence, an alignment file (.aln), and an output directory. Please provide the FULL path or absolute path for each argument as follows:
 	"$ python aln2prf_mtx_spd33.py -f <full/path/of/FASTA/sequence>  -a <full/path/of/the/alignmnet/(.aln)/file>  -o <full/path/of/the/output/directory>"
 	For example: 
-	"$ python aln2prf_mtx_spd33.py -f /home/DisCovER-master/preprocessing/Target/ex/d4pv4a1.seq -a /home/DisCovER-master/preprocessing/Target/ex/d4pv4a1.aln -o /home/DisCovER-master/preprocessing/Target/ex/"
+	"$ python aln2prf_mtx_spd33.py -f /home/DisCovER-master/preprocessing/Target/ex/d1a6qa1.seq -a /home/DisCovER-master/preprocessing/Target/ex/d1a6qa1.aln -o /home/DisCovER-master/preprocessing/Target/ex/"
 
 # To get distance and orientations from the trRosetta output(.npz to query.rr, omega.txt, theta.txt, phi.txt)
-5. 
+5. Run 'npz2dist_angles.py' script. The script takes .npz file and an output directory as inputs. It will generate three files in the output directory: query.rr, omega.txt,theta.txt,phi.txt. 
+	"$ python npz2dist_angles.py -i <full/path/of/npz/file> -o <full/path/of/the/output/directory>"
+	For example: 
+	"$ python npz2dist_angles.py -i /home/DisCovER-master/preprocessing/Target/ex/d1a6qa1.npz -o /home/DisCovER-master/preprocessing/Target/ex/"
