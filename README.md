@@ -43,20 +43,19 @@ Options:  -T path to template library             	- input, required
 
 ### Test DisCovER
 
-To run DisCovER, go to the target directory, which contains target sequence file, standard [SPIDER3](https://sparks-lab.org/downloads/) predicted output file, and profiles. Particularly, DisCovER will assume `seq.fasta, seq.spd33, seq.prf, seq.mtx` files are prersent in the current directory.
+To run DisCovER, go to the target directory, which contains target sequence file, standard [SPIDER3](https://sparks-lab.org/downloads/) predicted output file, profiles, and inter-residue distance and orientations. Particularly, DisCovER will assume `seq.fasta, seq.spd33, seq.prf, seq.mtx, query.rr, omega.txt, theta.txt, phi.txt` files are prersent in the current directory.
 
 ```sh
 $ chmod a+x DisCovER 						
-$ ulimit -s 419430400             (To increase the stack limit, avoiding Segmentation Error)
+$ ulimit -s 419430400                        (To increase the stack limit, avoiding Segmentation Error)
 $ cd Example
 $ tar -zxvf DisCovER_template_Lib.tar.gz           (Uncompress a toy template library for the test run)
-$ cd d1a9xb1/                     (Target directory contains respective input files as mentioned above)
-#To run DisCovER without MODELLER
-$ ../../DisCovER -T ../template_library/ -L ../template_library/template_list.txt -q d1a9xb1 -o ./ -d rawdistpred.current 
-#To run DisCovER with MODELLER  
-$ ../../DisCovER -T ../template_library/ -L ../template_library/template_list.txt -q d1a9xb1 -o ./ -d rawdistpred.current -m /home/aubszb/modpy.sh
+$ cd 6GW7_A/                     (Target directory contains respective input files as mentioned above)
+# run DisCovER 
+$ ../../DisCovER -T ../template_library/ -L ../template_library/template_list.txt -q 6GW7_A -o ./ -n 50 -c 1.0  
+
 ```
-The predicted top-one alignment file is named as `top1.fasta`. The alignmnet file for `d1a9xb1` are given [here](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/Example/Output/) for your reference. When you run DisCovER, the output screen looks like [it](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/Example/Output/d1a9xb1.log).
+The predicted top-one alignment file is named as `top1.fasta`. The alignmnet file for `6GW7_A` is given [here](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/Example/Output/) for your reference. When you run DisCovER, the output screen looks like [it](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/Example/Output/6GW7_A.log).
 
 ### Generating input files from Query sequence
 
