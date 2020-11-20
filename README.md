@@ -59,7 +59,8 @@ The predicted top-one alignment file is named as `top1.fasta`. The alignmnet fil
 
 ### Generating input files from Query sequence
 
-* Generate an alignmnet file ([.aln](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/preprocessing/Target/ex/d4pv4a1.aln) format) of the query sequence. 
+* Generate an alignmnet file ([.aln](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/preprocessing/Target/ex/d1a6qa1.aln) format) of the query sequence. 
+* Get trRosetta output file (.npz).
 * Go through the steps discussed [here](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/preprocessing/Target).
 
 ### Generating template library
