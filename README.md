@@ -1,6 +1,6 @@
 # DisCovER
 
-<h2>Distance- and orientations-based Covariational threadER </h2>
+<h2>Distance- and orientation-based Covariational threadER </h2>
 
 ### Download and Installation
 ```sh
@@ -17,7 +17,7 @@ To see the usage instructions, run `$ ./DisCovER -h`
 !!! HELP !!!
 
 -----------------------------------------------------------------------------------
- DisCovER : Distance- and orientations-based Covariational threadER (V1.0)
+ DisCovER : Distance- and orientation-based Covariational threadER (V1.0)
  For comments, please email to bhattacharyad@auburn.edu
 -----------------------------------------------------------------------------------
 
