@@ -2276,7 +2276,7 @@ return true;
 
 void PrintOpts(const OPTS &opts) {
 	printf("\n-----------------------------------------------------------------------------------\n");
-	printf(" DisCovER : Distance- and orientations-based Covariational threadER (%4s)\n",VERSION);
+	printf(" DisCovER : Distance- and orientation-based Covariational threadER (%4s)\n",VERSION);
 	printf(" For comments, please email to bhattacharyad@auburn.edu\n");
 	printf("-----------------------------------------------------------------------------------\n");
 	printf("\nUsage:   ./DisCovER [-option] [argument]\n\n");
@@ -2297,7 +2297,7 @@ void PrintCap(const OPTS &opts) {
 	strftime(buf, 26, "%Y:%m:%d / %H:%M:%S", tm_info);
 
 	printf("# %s\n", std::string(80, '-').c_str());
-	printf("# DisCovER : Distance- and orientations-based Covariational threadER (%4s)\n",VERSION);
+	printf("# DisCovER : Distance- and orientation-based Covariational threadER (%4s)\n",VERSION);
 	//printf("#\tDistance-based Covariational ThreadER (%4s)\n",VERSION);
 	printf("# For comments, please email to bhattacharyad@auburn.edu\n");
 	printf("# %s\n", std::string(80, '-').c_str());
