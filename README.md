@@ -73,8 +73,8 @@ The predicted top-one alignment file is named as `top1.fasta`. The alignmnet fil
 ## Data
 
 - The template library can be found [here](http://sanger.cse.eng.auburn.edu/DisCovER/downloads/DisCovER_template_Lib.tar.gz) 
-- The benchmark datasets along with input files can be found [here](http://sanger.cse.eng.auburn.edu/DisCovER/downloads/DisCovER_dataset.tar.gz) 
-- DisCovER predicted full-length 3D models can be found [here](http://sanger.cse.eng.auburn.edu/DisCovER/downloads/DisCovER_3D_models.tar.gz) 
+- The benchmark datasets along with input files can be found [here](/home/project/conThreader/paper3/disThreader/experiment_Sep5/public_data/DisCovER_dataset.tar.gz) 
+- DisCovER predicted full-length 3D models can be found [here](/home/project/conThreader/paper3/disThreader/experiment_Sep5/public_data/DisCovER_3D_models.tar.gz) 
 
 ## Cite
 If you find DisCovER useful, please cite our [paper in bioRxiv](https://www.biorxiv.org/content/10.1101/2020.01.31.923409v1) available as preprint.
