@@ -14,13 +14,13 @@ import math
 parser=optparse.OptionParser()
 parser.add_option('-f', dest='alignment_file', 
         default= '',    #default empty!' 
-        help= 'alignment file')
+        help= 'alignment file in MODELLER format')
 parser.add_option('--ss', dest='ss', 
         default= '',    #default empty!' 
         help= 'secondary structure file') 
 parser.add_option('--rr', dest='rr', 
         default= '',    #default empty!' 
-        help= 'contact map in standard rr format') 
+        help= 'contact map in standard rr format (the output of trRosetta9classrr_ss5.py)') 
 parser.add_option('--target', dest='target', 
         default= '',    #default empty!' 
         help= 'name of target') 
@@ -32,13 +32,13 @@ parser.add_option('--ctype', dest='ctype',
         help= 'ca or cb. default ca')
 parser.add_option('--phi', dest='phi',
         default= '',    #default empty!
-        help= 'phi orientation')
+        help= 'phi orientation (the output of trRosetta_phi_upper_lower.py)')
 parser.add_option('--theta', dest='theta',
         default= '',    #default empty!
-        help= 'theta orientation')
+        help= 'theta orientation (the output of trRosetta_theta_upper_lower.py)')
 parser.add_option('--omega', dest='omega',
         default= '',    #default empty!
-        help= 'omega orientation')
+        help= 'omega orientation (the output of trRosetta_omega_upper_lower.py)')
 
  
 (options,args) = parser.parse_args()
