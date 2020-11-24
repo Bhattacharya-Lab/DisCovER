@@ -1,0 +1,80 @@
+1. build3Dmodel_aln.py
+To see the usage instructions, run 
+
+$ path/to/modpy.sh python DisCovER/modeller_scripts/build3Dmodel_aln.py -h
+Usage: build3Dmodel_aln.py [options]
+
+Options:
+  -h, --help           show this help message and exit
+  -f ALIGNMENT_FILE    alignment file
+  --target=TARGET      name of target
+  --template=TEMPLATE  name of template
+
+
+2. build3Dmodel_aln_rsr.py
+To see the usage instructions, run
+                            
+$ path/to/modpy.sh python DisCovER/modeller_scripts/build3Dmodel_aln_rsr.py -h
+Usage: build3Dmodel_aln_rsr.py [options]
+
+Options:
+  -h, --help           show this help message and exit
+  -f ALIGNMENT_FILE    alignment file
+  --ss=SS              secondary structure file
+  --rr=RR              contact map in standard rr format
+  --target=TARGET      name of target
+  --template=TEMPLATE  name of template
+  --ctype=CTYPE        ca or cb. default ca
+  --phi=PHI            phi orientation
+  --theta=THETA        theta orientation
+  --omega=OMEGA        omega orientation
+
+3. trRosetta9classrr_ss5.py
+To see the usage instructions, run
+
+$ python DisCovER/modeller_scripts/trRosetta9classrr_ss5.py -h
+Usage: trRosetta9classrr_ss5.py [options]
+
+Options:
+  -h, --help  show this help message and exit
+  -d DIST     name of trRosetta predicted file (.npz)
+  -a FASTA    name of fasta file
+  -r RR       name of output contact map
+
+4. trRosetta_phi_upper_lower.py
+To see the usage instructions, run
+
+python DisCovER/modeller_scripts/trRosetta_phi_upper_lower.py -h
+Usage: trRosetta_phi_upper_lower.py [options]
+
+Options:
+  -h, --help  show this help message and exit
+  -d DIST     name of trRosetta predicted file (.npz)
+  -a FASTA    name of fasta file
+  -r RR       name of output
+
+5. trRosetta_omega_upper_lower.py
+To see the usage instructions, run
+
+python DisCovER/modeller_scripts/trRosetta_omega_upper_lower.py -h
+Usage: trRosetta_omega_upper_lower.py [options]
+
+Options:
+  -h, --help  show this help message and exit
+  -d DIST     name of trRosetta predicted file (.npz)
+  -a FASTA    name of fasta file
+  -r RR       name of output
+
+6. trRosetta_theta_upper_lower.py
+To see the usage instructions, run
+
+python DisCovER/modeller_scripts/trRosetta_theta_upper_lower.py -h
+Usage: trRosetta_theta_upper_lower.py [options]
+
+Options:
+  -h, --help  show this help message and exit
+  -d DIST     name of trRosetta predicted file (.npz)
+  -a FASTA    name of fasta file
+  -r RR       name of output
+
+
