@@ -72,7 +72,7 @@ The predicted top-one alignment file is named as `top1.fasta`. The alignmnet fil
 ### Building 3D models
 
 * The standard automodel() class of MODELLER is available [here](https://github.com/Bhattacharya-Lab/DisCovER/blob/master/modeller_scripts/build3Dmodel_aln.py).
-* The MODELLER with additional restraints from predicted distances, orientations, and secondary structures script is available [here](https://github.com/Bhattacharya-Lab/DisCovER/blob/master/modeller_scripts/build3Dmodel_aln_rsr.py). Go through the usage instruction [here](https://github.com/Bhattacharya-Lab/DisCovER/blob/master/modeller_scripts/readme). The helping script to convert trRosetta output file (.npz) to inter-residue geometries are available [here](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/modeller_scripts).
+* The MODELLER with additional restraints from predicted distances, orientations, and secondary structures script is available [here](https://github.com/Bhattacharya-Lab/DisCovER/blob/master/modeller_scripts/build3Dmodel_aln_rsr.py). Go through the usage instruction [here](https://github.com/Bhattacharya-Lab/DisCovER/blob/master/modeller_scripts/readme). The helping scripts to convert trRosetta output file (.npz) to inter-residue geometries are available [here](https://github.com/Bhattacharya-Lab/DisCovER/tree/master/modeller_scripts).
 
 ## Data
 
