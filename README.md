@@ -45,8 +45,7 @@ Options:  -T path to template library             	- input, required
 
 To run DisCovER, go to the target directory, which contains target sequence file, standard [SPIDER3](https://sparks-lab.org/downloads/) predicted output file, profiles, and inter-residue distance and orientations. Particularly, DisCovER will assume `seq.fasta, seq.spd33, seq.prf, seq.mtx, query.rr, omega.txt, theta.txt, phi.txt` files are prersent in the current directory.
 
-```sh
-$ chmod a+x DisCovER 						
+```sh						
 $ ulimit -s 419430400                        (To increase the stack limit, avoiding Segmentation Error)
 $ cd Example
 $ tar -zxvf DisCovER_template_Lib.tar.gz           (Uncompress a toy template library for the test run)
