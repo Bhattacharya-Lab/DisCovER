@@ -28,7 +28,7 @@ parser.add_option('-a', dest='fasta',
 
 parser.add_option('-r', dest='rr',
         default = 'out',    # default out
-        help = 'name of output contact map')
+        help = 'name of output')
 
 (options,args) = parser.parse_args()
 dist = options.dist
