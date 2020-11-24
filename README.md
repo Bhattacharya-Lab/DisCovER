@@ -69,6 +69,10 @@ The predicted top-one alignment file is named as `top1.fasta`. The alignmnet fil
 
 * or build (`MTX and DEP`) by your own library as discussed in [I-TASSER](https://zhanglab.ccmb.med.umich.edu/I-TASSER/download/).
  
+### Building 3D models
+
+* The standard automodel() class of MODELLER is available [here](https://github.com/Bhattacharya-Lab/DisCovER/blob/master/modeller_scripts/build3Dmodel_aln.py)
+* The MODELLER with additional restraints from predicted distances, orientations, and secondary structures script is available [here](https://github.com/Bhattacharya-Lab/DisCovER/blob/master/modeller_scripts/build3Dmodel_aln_rsr.py). Go through the usage instruction [here](https://github.com/Bhattacharya-Lab/DisCovER/blob/master/modeller_scripts/readme). 
 
 ## Data
 
