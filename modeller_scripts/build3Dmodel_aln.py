@@ -1,3 +1,12 @@
+#############################################################################################
+#     File Name           :     build3Dmodel_aln.py 					    #
+#     Developed By        :     Rahmatullah Roche 					    #
+#     Creation Date       :     [2020-11-23 18:56]					    #
+#     Last Modified       :     [2020-11-23 18:56]                                          #
+#     Description         :     model building using standard automodel()                   #
+#############################################################################################
+
+
 from modeller import *
 from modeller.automodel import *
 import os,sys,optparse
