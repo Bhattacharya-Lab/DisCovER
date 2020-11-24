@@ -14,7 +14,7 @@ import os,sys,optparse
 parser=optparse.OptionParser()
 parser.add_option('-f', dest='alignment_file',
         default= '',    #default empty!
-        help= 'alignment file')
+        help= 'alignment file in MODELLER format')
 parser.add_option('--target', dest='target',
         default= '',    #default empty!
         help= 'name of target')
