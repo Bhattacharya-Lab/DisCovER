@@ -1,3 +1,12 @@
+#############################################################################################################################################
+#     File Name           :     build3Dmodel_aln_rsr.py 										    #
+#     Developed By        :     Rahmatullah Roche 											    #
+#     Creation Date       :     [2020-11-23 18:12]											    #
+#     Last Modified       :     [2020-11-23 18:12] 											    #
+#     Description         :     model building with additional restraints from predicted distances, orientations, and secondary structures  #
+#############################################################################################################################################
+
+
 from modeller import *
 from modeller.automodel import *
 import os,sys,optparse
