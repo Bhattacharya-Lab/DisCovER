@@ -76,6 +76,7 @@ The predicted top-one alignment file is named as `top1.fasta`. The alignmnet fil
 ## Data
 
 - The benchmark datasets along with input files can be found [here](http://sanger.cse.eng.auburn.edu/DisCovER/downloads/DisCovER_dataset.tar.gz) 
+- DisCovER predicted query-template alignmnet files can be found [here]()
 - DisCovER predicted full-length 3D models can be found [here](http://sanger.cse.eng.auburn.edu/DisCovER/downloads/DisCovER_3D_models.tar.gz) 
 
 ## Cite
