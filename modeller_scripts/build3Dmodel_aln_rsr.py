@@ -4,6 +4,7 @@
 #     Creation Date       :     [2020-11-23 18:12]											    #
 #     Last Modified       :     [2020-11-23 18:12] 											    #
 #     Description         :     model building with additional restraints from predicted distances, orientations, and secondary structures  #
+#     Credit		  :     https://salilab.org/modeller/				    						    #
 #############################################################################################################################################
 
 
