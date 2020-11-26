@@ -4,6 +4,7 @@
 #     Creation Date       :     [2020-11-23 18:56]					    #
 #     Last Modified       :     [2020-11-23 18:56]                                          #
 #     Description         :     model building using standard automodel()                   #
+#     Credit		  :     https://salilab.org/modeller/				    # 
 #############################################################################################
 
 
