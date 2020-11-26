@@ -20,17 +20,16 @@ Usage: build3Dmodel_aln_rsr.py [options]
 Options:
   -h, --help           show this help message and exit
   -f ALIGNMENT_FILE    alignment file in MODELLER format
-  --ss=SS              secondary structure file
-  --rr=RR              contact map in standard rr format (the output of
+  --ss=SS              secondary structure file, containing raw SS without any header
+  --rr=RR              contact map in standard rr format (the output file of
                        trRosetta9classrr_ss5.py)
   --target=TARGET      name of target
   --template=TEMPLATE  name of template
-  --ctype=CTYPE        ca or cb. default ca
-  --phi=PHI            phi orientation (the output of
+  --phi=PHI            phi orientation (the output file of
                        trRosetta_phi_upper_lower.py)
-  --theta=THETA        theta orientation (the output of
+  --theta=THETA        theta orientation (the output file of
                        trRosetta_theta_upper_lower.py)
-  --omega=OMEGA        omega orientation (the output of
+  --omega=OMEGA        omega orientation (the output file of
                        trRosetta_omega_upper_lower.py)
 
 3. trRosetta9classrr_ss5.py
